@@ -6,8 +6,6 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {MainLayoutComponent} from './shared/layout/app-layouts/main-layout.component';
-import Workflow from 'app/shared/services/workflow.service';
-import Actions from './shared/actions/Actions';
 
 @NgModule({
   declarations: [
@@ -21,8 +19,6 @@ import Actions from './shared/actions/Actions';
     AppRoutingModule
   ],
   providers: [
-    Workflow,
-    Actions
   ],
   bootstrap: [AppComponent]
 })
